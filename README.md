@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/delower186/2checkout-laravel)](https://github.com/delower186/2checkout-laravel/blob/master/LICENSE.md)
 
 ## 2checkout package for Laravel application
-Providing Simple Integration for 2Checkout Payment Gateway
+Providing Simple 2Checkout Payment Gateway Integration for Laravel applications
 
 ## Requirements
 * Laravel >= 5.5
