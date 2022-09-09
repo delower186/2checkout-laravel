@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "delower186\\twocheckout\\TwocheckoutServiceProvider"
+                "Delower186\\Twocheckout\\TwocheckoutServiceProvider"
             ]
         }
     }
