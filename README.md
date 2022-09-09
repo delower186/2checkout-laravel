@@ -30,10 +30,10 @@ Delower186\Twocheckout\TwocheckoutServiceProvider::class
 * Add the alias to your `$aliases` array in `config/app.php` file like: 
 
 ```php
-'TwoCheckout' => Delower186\Twocheckout\Facades\Twocheckout 
+'Twocheckout' => Delower186\Twocheckout\Facades\Twocheckout 
 ```
 ```php
-'TwoCheckout' => Delower186\Twocheckout\Facades\Twocheckout::class
+'Twocheckout' => Delower186\Twocheckout\Facades\Twocheckout::class
 ```
 
 * Run the following command to publish configuration:
