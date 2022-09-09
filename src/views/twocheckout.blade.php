@@ -31,7 +31,7 @@
                             <div>
                                 <p class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">$ {{ $product->price }}
                                     @php
-                                        Delower186\Twocheckout\Http\Controllers\TwocheckoutController::buyNow($product->price);
+                                        Delower186\Twocheckout\Facades\Twocheckout::buyNow($product->price);
                                     @endphp
                                 </p>
                             </div>

@@ -19,6 +19,8 @@ class TwocheckoutServiceProvider extends ServiceProvider{
     }
 
     public function register(){
-        
+        $this->app->bind('twocheckout', function($app) {
+            return new Twocheckout();
+        });
     }
 }

@@ -20,7 +20,10 @@
         "laravel": {
             "providers": [
                 "Delower186\\Twocheckout\\TwocheckoutServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Twocheckout": "Delower186\\Twocheckout\\Facades\\Twocheckout"
+            }
         }
     }
 }
