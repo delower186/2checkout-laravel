@@ -59,10 +59,10 @@ http://127.0.0.1:8000/twocheckout
 use Delower186\Twocheckout\Facades\Twocheckout;
 ```
 ```php
-loadScripts() // use this method in the bolwo of product page
+Twocheckout::loadScripts() // use this method in the bolwo of product page
 ```
 ```php
-buyNow($price) //use this method as buyNow button product price as parameter, it can be customized using css classes
+Twocheckout::buyNow($price) //use this method as buyNow button product price as parameter, it can be customized using css classes
 ```
 
 ### Customization
