@@ -20,19 +20,19 @@ composer require delower186/twocheckout
 * Add the service provider to your if Laravel version is below 5.5 `$providers` array in `config/app.php` file like: 
 
 ```php
-TwoCheckout\TwoCheckoutServiceProvider
+Delower186\Twocheckout\TwocheckoutServiceProvider
 ```
 ```php
-TwoCheckout\TwoCheckoutServiceProvider::class
+Delower186\Twocheckout\TwocheckoutServiceProvider::class
 ```
 
 * Add the alias to your `$aliases` array in `config/app.php` file like: 
 
 ```php
-'TwoCheckout' => TwoCheckout\Facades\TwoCheckout 
+'TwoCheckout' => Delower186\Twocheckout\Facades\Twocheckout 
 ```
 ```php
-'TwoCheckout' => TwoCheckout\Facades\TwoCheckout::class 
+'TwoCheckout' => Delower186\Twocheckout\Facades\Twocheckout::class
 ```
 
 * Run the following command to publish configuration:
