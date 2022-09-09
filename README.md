@@ -1,6 +1,7 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/collizo4sky/omnipay-2checkout.svg?style=flat-square)](https://packagist.org/packages/delower186/twocheckout)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/collizo4sky/omnipay-2checkout.svg?style=flat-square)](https://packagist.org/packages/delower186/twocheckout)
+[![GitHub issues](https://img.shields.io/github/issues/delower186/2checkout-laravel)](https://github.com/delower186/2checkout-laravel/issues)
+[![GitHub forks](https://img.shields.io/github/forks/delower186/2checkout-laravel)](https://github.com/delower186/2checkout-laravel/network)
+[![GitHub stars](https://img.shields.io/github/stars/delower186/2checkout-laravel)](https://github.com/delower186/2checkout-laravel/stargazers)
+[![GitHub license](https://img.shields.io/github/license/delower186/2checkout-laravel)](https://github.com/delower186/2checkout-laravel/blob/master/LICENSE.md)
 
 ## 2checkout package for Laravel application
 Providing Simple Integration for 2Checkout Payment Gateway
