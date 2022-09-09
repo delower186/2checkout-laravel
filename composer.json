@@ -1,0 +1,26 @@
+{
+    "name": "delower186/twocheckout",
+    "description": "2checkout payment gateway integration for laravel application.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Delower",
+            "email": "info@delower.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Delower186\\Twocheckout\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "delower186\\twocheckout\\TwocheckoutServiceProvider"
+            ]
+        }
+    }
+}
