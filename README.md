@@ -59,27 +59,30 @@ http://127.0.0.1:8000/twocheckout
 use Delower186\Twocheckout\Facades\Twocheckout;
 ```
 ```php
-Twocheckout::loadScripts() // use this method in the bolwo of product page
+Twocheckout::loadScripts() // use this method in the bottom of product page
 ```
 ```php
 Twocheckout::buyNow($price) //use this method as buyNow button product price as parameter, it can be customized using css classes
+```
+```php
+Twocheckout::store($request) //use this method to store order info sent by 2checkout, publish views & migrations to customize
 ```
 
 ### Customization
 * these are optional customization options can be added to .env file
 ```bash
 #DEFAULT PRODUCT TYPE IS "DYNAMIC" only for now 
-#PRODUCT_TYPE=
+PRODUCT_TYPE=
 
 #DEFAULT CURRENCY "USD"
-#CURRENCY_CODE=
+CURRENCY_CODE=
 
 #DEFALT TEXT "BUY NOW"
-#BUTTON_TEXT=
+BUTTON_TEXT=
 
 #CSS CLASSES  SEPARATED BY SPACE
-#CSS_CLASSES=
+CSS_CLASSES=
 
 #CART NAME (DEFAULT 'Total Price')
-#CART_NAME=
+CART_NAME=
 ```

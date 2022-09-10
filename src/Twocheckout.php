@@ -2,6 +2,9 @@
 
 namespace Delower186\Twocheckout;
 
+
+use Delower186\Twocheckout\Models\Twocheckout as ModelsTwocheckout;
+
 class Twocheckout{
 
     public static function loadScript(){
@@ -29,5 +32,16 @@ class Twocheckout{
 
     public static function buyNow($price){
         echo '<button onclick=checkout('.$price.') type="button" class="'.config('twocheckout.cssClass').'" id="checkout">'.config('twocheckout.text','Checkout').'</button>';
+    }
+
+    public static function store($request){
+        
+        ModelsTwocheckout::create([
+            'reference' => $request->refno,
+            'price' => $request->total,
+            //'currency' => $request->total-currency,
+            'signature' => $request->signature,
+        ]);
+         
     }
 }
